@@ -8,5 +8,5 @@ This application has 2 endpoints:
 - "/search" endpoint allows to save and return coordinates entered in the request. 
 You must enter your request in the following format: 
 "localhost:8080/search?format=json&housenumber=<ENTER HOUSER NUMBER>&streetname=<ENTER STREET>&city=<ENTER CITY>"
-Example: search?format=json&housenumber=218&streetname=Piccadilly Circus&city=london"
+Example: search?format=json&housenumber=218&streetname=piccadillycircus&city=london"
 - "/addresses" will return address related to previously entered coordinates.
